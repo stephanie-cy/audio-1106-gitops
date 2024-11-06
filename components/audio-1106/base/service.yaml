@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: audio-1106
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: audio-1106 
+  name: audio-1106
+spec:
+  ports:
+  - port: 8501
+    protocol: TCP
+    targetPort: 8501
+  selector:
+    app.kubernetes.io/instance: audio-1106 

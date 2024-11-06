@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: audio-1106-database-config
+data:
+  VECTORDB_HOST: "audio-1106-database"
+  VECTORDB_PORT: ""

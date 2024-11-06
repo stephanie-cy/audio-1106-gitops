@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: audio-1106-gitops-repository
+spec:
+  url: https://github.com/stephanie-cy/audio-1106-gitops
